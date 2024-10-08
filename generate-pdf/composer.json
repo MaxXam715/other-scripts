@@ -1,0 +1,6 @@
+{
+    "require": {
+        "vendor/dompdf2/dompdf": "^3.0",
+        "contao/imagine-svg": "^1.0"
+    }
+}

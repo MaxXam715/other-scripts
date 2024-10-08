@@ -1,0 +1,536 @@
+@import url('https://dev.rakurs.moscow/assets/fonts/Suisse-Intl/stylesheet.css');
+
+
+@page {
+    size: 1024px 768px;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Suisse Intl";
+    background-color: #EDE8DF;
+    width: 1024px;
+    height: 768px;
+    margin: 0;
+    padding: 0;
+}
+
+body > *:not(:last-child) {
+    page-break-after: always;
+}
+
+body > * {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* end - Вступительный слайд */
+.slide-cover {
+    background-position: center;
+    background-size: cover;
+}
+
+.slide-cover .left-col {
+
+}
+
+.slide-cover .left-col,
+.slide-cover .right-col {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.slide-cover .left-col .our-contacts {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    margin: 20px;
+}
+
+.slide-cover .left-col .our-contacts .item {
+    color: #43301F;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -0.6px;
+}
+
+.slide-cover .left-col .logo-image {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 325px;
+}
+
+.slide-cover .right-col .cover-jk {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* end - Вступительный слайд */
+
+
+/* шапка каждого слайда */
+.slide-item .header {
+    position: relative;
+    width: 100%;
+    height: 66px;
+    background-color: #DDD4C3;
+}
+
+.slide-item .header .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 135px;
+    transform: translate(-50%, -50%);
+}
+/* end- шапка каждого слайда */
+
+
+/* контентная область для каждого слайда */
+.slide-item .content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: calc(100% - (66px + 116px));
+    padding: 0 40px;
+    overflow-y: auto;
+}
+
+.slide-item .content .left-col,
+.slide-item .content .right-col {
+    position: relative;
+    float: left;
+    height: 565px;
+    padding-top: 20px;
+    /*background-color: rgba(0, 0, 0, 0.05);*/
+}
+
+.slide-item .content .left-col {
+    width: 382px;
+}
+
+.slide-item .content .left-col:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #43301F;
+}
+
+.slide-item .content .right-col {
+    width: 562px;
+
+}
+/* end - контентная область для каждого слайда */
+
+
+/* footer */
+.slide-item .footer {
+    position: relative;
+    width: calc(100% - 80px);
+    height: 116px;
+    margin: 0;
+    padding: 0px 40px;
+}
+
+.slide-item .footer:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: calc(100% - 80px);
+    transform: translateX(-50%);
+    height: 1px;
+    background-color: #43301F;
+}
+
+.slide-item .footer .left-col,
+.slide-item .footer .center-col,
+.slide-item .footer .right-col {
+    position: relative;
+    float: left;
+    width: 33.33333333333333%;
+    height: 100%;
+}
+
+.slide-item .footer .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slide-item .footer .left-col .qr-container {
+    position: absolute;
+    top: 35%;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.slide-item .footer .left-col .qr-container .qr-img {
+    width: 53px;
+    height: 53px;
+    object-fit: contain;
+    margin-bottom: auto;
+    margin-right: 6px;
+}
+
+.slide-item .footer .left-col .qr-container .info {
+    display: inline-block;
+    max-width: 150px;
+}
+
+.slide-item .footer .left-col .qr-container .info .title {
+    font-size: 12px;
+    color: #43301F;
+}
+
+.slide-item .footer .left-col .qr-container .info .desc {
+    color: rgba(67, 48, 31, 0.50);
+    font-size: 12px;
+    line-height: 90%;
+    letter-spacing: -0.36px;
+    margin-top: 13px;
+}
+
+.slide-item .footer .center-col .container {
+    position: absolute;
+    top: 30%;
+    padding-left: 80px;
+}
+
+.slide-item .footer .center-col .container .item {
+    color: rgba(55, 46, 39, 0.50);
+    font-size: 12px;
+    line-height: 120%;
+    letter-spacing: -0.36px;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.slide-item .footer .center-col .container .item:last-child {
+    margin-bottom: 0;
+}
+
+.slide-item .footer .right-col .container {
+    position: absolute;
+    top: 20%;
+}
+
+.slide-item .footer .right-col .container .phone {
+    color: rgba(67, 48, 31, 0.50);
+    text-align: right;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.6px;
+    margin-bottom: 10px;
+}
+
+.slide-item .footer .right-col .container .hint {
+    color: rgba(67, 48, 31, 0.50);
+    text-align: right;
+    font-size: 12px;
+    line-height: 90%;
+    letter-spacing: -0.36px;
+}
+/* end - footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide-item > .content .info-flat {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slide-item > .content .info-flat .title-flat {
+    color: #43301F;
+    font-size: 30px;
+    line-height: 90%;
+    margin-bottom: 24px;
+}
+
+.slide-item > .content .info-flat .price {
+    color: #43301F;
+    font-size: 30px;
+    line-height: 90%; /* 27px */
+}
+
+.slide-item > .content .info-flat .old-price .price {
+    color: #43301F;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 90%; /* 18px */
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.slide-item > .content .info-flat .old-price .percent {
+    color: #43301F;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 90%;
+    opacity: 0.5;
+}
+
+.slide-item > .content .info-flat .teps {
+    margin-top: 24px;
+}
+
+.slide-item > .content .info-flat .teps .item {
+    position: relative;
+    display: inline-block;
+    color: #43301F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+    margin-right: 16px;
+}
+
+.slide-item > .content .info-flat .teps .item:after {
+    content: "|";
+    margin-left: 16px;
+    color: #43301F;
+    opacity: 0.25;
+}
+
+.slide-item > .content .info-flat .teps .item:last-child:after {
+    display: none;
+}
+
+.slide-item > .content .info-flat .params-place {
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 14px);
+}
+
+.slide-item > .content .info-flat .params-place .item {
+    position: relative;
+    padding: 15px 0;
+    border-top: 1px solid #43301F;
+}
+
+.slide-item > .content .info-flat .params-place .item .label {
+    width: max-content;
+    display: inline-block;
+    color: rgba(67, 48, 31, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: left;
+}
+
+.slide-item > .content .info-flat .params-place .item .value {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    color: #43301F;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.slide-item > .content .info-flat .schematic-genplan {
+    position: relative;
+    width: calc(100% - 20px);
+    height: 450px;
+    /*background-color: #ccc;*/
+}
+
+.slide-item > .content .info-flat .schematic-genplan .schematic-genplan-image {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-60%);
+    margin: auto;
+    width: 300px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.slide-item > .content .info-flat .schematic-genplan .compass {
+    position: absolute;
+    right: 0;
+    top: 60%;
+}
+
+.slide-item > .content .layout-place {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slide-item > .content .layout-place .title-block {
+    color: rgba(67, 48, 31, 0.50);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: -0.42px;
+    margin-bottom: 16px;
+}
+
+.slide-item > .content .layout-place .layout-wrapper {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 60px);
+    /*background-color: #ccc;*/
+}
+
+.slide-item > .content .layout-place .layout-wrapper .layout-image {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: auto;
+    max-width: calc(100% - 20px);
+    max-height: calc(100% - 20px);
+    object-fit: contain;
+    padding: 20px;
+}
+
+.slide-item > .content .layout-place .layout-wrapper .compass {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.slide-item > .content .plan-floor {
+    position: relative;
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    padding: 50px;
+}
+
+.slide-item > .content .plan-floor .type-designation {
+    position: absolute;
+    color: rgba(67, 48, 31, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+    white-space: nowrap;
+}
+
+.slide-item > .content .plan-floor .type-designation.south {
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.slide-item > .content .plan-floor .type-designation.west {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%) translateX(-35%) rotate(-90deg);
+    writing-mode: vertical-lr;
+}
+
+.slide-item > .content .plan-floor .type-designation.east {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) translateX(40%) rotate(-90deg);
+    writing-mode: vertical-lr;
+}
+
+.slide-item > .content .plan-floor .type-designation.north {
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+.slide-item > .content .plan-floor {
+
+}
+
+.slide-item > .content .plan-floor .test {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.slide-item > .content .plan-floor .test .circle {
+    position: absolute;
+    top: 341px;
+    left: 311px;
+    width: 100px;
+    height: 100px;
+}
+
+.slide-item > .content .plan-floor .svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
+
+.slide-item > .content .plan-floor .layout-place-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.slide-item > .content .house-floor-layout {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.slide-item > .content .house-floor-layout .house-render {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.slide-item > .content .house-floor-layout .svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}

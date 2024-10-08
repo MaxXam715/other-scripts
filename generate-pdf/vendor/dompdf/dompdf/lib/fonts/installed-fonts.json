@@ -1,0 +1,57 @@
+{
+    "manrope": {
+        "200": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/manrope_200_e0d19c274c35f1c6f61a809f0e593f4c",
+        "300": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/manrope_300_d891ce8b2e293c4551d012107cd75dda",
+        "normal": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/manrope_normal_2f4591edcb246e7021b13ff6dbc7d48b",
+        "500": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/manrope_500_3faecf902bdf678508c43f0770f51f59",
+        "600": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/manrope_600_7965b5f7a522f1c92cbaca274ac0692b",
+        "bold": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/manrope_bold_39803e033cf59c26714816343b268345",
+        "800": "manrope_800_37547f9d42602b7a5fcd9d4cb3703b83"
+    },
+    "onest": {
+        "100": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/onest_100_2f2a257088e51b11f241c3b59da17203",
+        "200": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/onest_200_0a9b783e1eac23881ce3247494bd5104",
+        "300": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/onest_300_1116ec78bb9ea1f2d984a46e01ff813a",
+        "normal": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/onest_normal_f7f0c613d99cd04d737e235463aa797b",
+        "500": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/onest_500_50b667a3be23c97691ce792abdd98d79",
+        "600": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/onest_600_09247392cfcaa5d2d225df34400c97bf",
+        "bold": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/onest_bold_06cd5f3a8bf3bdea5d5e5c8cf69f5875",
+        "800": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/onest_800_38e69ac6153b677ca8bc928f92023136",
+        "900": "onest_900_f7f7297c33cb64891ec9676fddaf09f1"
+    },
+    "open sans": {
+        "300_italic": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_300_italic_945d8dd4a3efccc1bb28c16b6242db51",
+        "italic": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_italic_877b1c2661afb6fd8801d8d676e92166",
+        "500_italic": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_500_italic_6553c22d1e76c3d4440f64b48805fc7c",
+        "600_italic": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_600_italic_38650afefae818658a58a3f734c27327",
+        "bold_italic": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_bold_italic_f909b48de15edc7e40c0cecc141c2730",
+        "800_italic": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_800_italic_0a4825527362f06dbcf6601f5ab55f61",
+        "300": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_300_8513b9024ad211a10e857eba11f0f357",
+        "normal": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_normal_2bf6e8a03908d49a7fa7b1094b0c2804",
+        "500": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_500_663f11545dfeea65b44b2da12b5a66b1",
+        "600": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_600_94288badef373364367fbfb769e688ce",
+        "bold": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/open_sans_bold_0e7196744e416eea97ecd5b9781a44c2",
+        "800": "open_sans_800_32706e64358098f2a0ad457efc8e0229"
+    },
+    "suisse intl": {
+        "normal": "suisse_intl_normal_e97900c07bfc397f2078c1df433ef132"
+    },
+    "oswald": {
+        "200": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/oswald_200_bdf4af4b4959f27aeafe4bf051f4a44f",
+        "300": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/oswald_300_adf84f567deb7f5696bb165b95be04be",
+        "normal": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/oswald_normal_ab7c31e807e76f577ceada772642acaa",
+        "500": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/oswald_500_209ca4f88b90d5070c86dc3ca14f0bcf",
+        "600": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/oswald_600_f5d1806d7ccb3d5cf8dac2e1a000c369",
+        "bold": "oswald_bold_371a3c2fef19bcee663fdd65a31f68e4"
+    },
+    "merriweather": {
+        "300_italic": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/merriweather_300_italic_cd5c06752ba8900d30041912a185bf0c",
+        "italic": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/merriweather_italic_cb2dd0228f1feb77ffdacb70eb8a3335",
+        "bold_italic": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/merriweather_bold_italic_d205a6c184ac0783846d4ce558136d74",
+        "900_italic": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/merriweather_900_italic_ddb0618fc195ca05d919844e3a147583",
+        "300": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/merriweather_300_53d4ca1f86bff7eac931f8d1cc336665",
+        "normal": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/merriweather_normal_f48d8d14bf761fa27d7f4fa85936cb2b",
+        "bold": "C:\\Users\\gorbatenko.mp\\PhpstormProjects\\test-php-pdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/merriweather_bold_4c68737e59888e80def25674c46b5dfa",
+        "900": "merriweather_900_905263599be0411c2ca5732bf2cd1c47"
+    }
+}
